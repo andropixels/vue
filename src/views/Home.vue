@@ -29,8 +29,8 @@
       <AppHero
         row-reverse
         titleStyle="display-3 has-text-weight-bold mb-16"
-        title=" A place where you can learn and teach "
-        text="Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        title=" Teach and  learn from yoiur friends  "
+      
         :img="require('@/assets/04.png')"
       />
     </section>
@@ -54,8 +54,8 @@
     <section class="features-2 py-50">
       <AppHero
         titleStyle="display-3 has-text-weight-bold mb-16"
-        title="Get tips & tricks on how to skyrocket your sales."
-        text="Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        title="  Grow your community and skills ."
+        text="."
         :img="require('@/assets/05.png')"
       />
     </section>
@@ -63,7 +63,7 @@
     <!-- Services -->
     <section class="services">
       <div class="container">
-        <AppHeadingTitle title="Service Provide" />
+        <AppHeadingTitle title="" />
         <div class="columns is-multiline">
           <div class="column is-4" v-for="box in services" :key="box.id">
             <AppCard :card="box" hoverable />
@@ -73,17 +73,17 @@
     </section>
 
     <!-- Blog -->
-    <section class="blog">
+    <!-- <section class="blog">
       <div class="container">
         <AppHeadingTitle title="Recent Stories" />
         <AppCarousel />
       </div>
-    </section>
+    </section> -->
 
     <!-- Our Clients -->
     <section class="our-clients">
       <div class="container">
-        <AppHeadingTitle title="They Trust Me" />
+        <AppHeadingTitle title=" Come together and start learning" />
         <AppSlider :img="clients">
           <template v-slot:item="{ item }">
             <img :src="item.img" :title="item.name" />
@@ -119,21 +119,21 @@ export default {
       howItWorks: [
         {
           img: require("@/assets/01.png"),
-          title: "Fully Support",
+          title: "LEARN",
           text:
-            "There are many variations of passages of the have suffered in some form."
+            "Learn from teacher of your choice,get skills  and earn $learn"
         },
         {
           img: require("@/assets/02.png"),
-          title: "Product Review",
+          title: "TEACH",
           text:
-            "There are many variations of passages of the have suffered in some form."
+            "Teach effectively,contibute for qulaity education and earn $teach"
         },
         {
           img: require("@/assets/03.png"),
-          title: "Product Analysis",
+          title: "Organize Events",
           text:
-            "There are many variations of passages of the have suffered in some form."
+            "Organize events and  earn money "
         }
       ],
       // Stats
@@ -157,44 +157,31 @@ export default {
       ],
 
       // Services
-      services: [
-        {
-          img: require("@/assets/services-1.png"),
-          title: "Targeting Autonomous",
-          text:
-            "There are many variations of passages of the have suffered in some form."
-        },
-        {
-          img: require("@/assets/services-2.png"),
-          title: "Media Buying",
-          text:
-            "There are many variations of passages of the have suffered in some form."
-        },
-        {
-          img: require("@/assets/services-3.png"),
-          title: "Analytics & Insights",
-          text:
-            "There are many variations of passages of the have suffered in some form."
-        },
-        {
-          img: require("@/assets/services-4.png"),
-          title: "Optimization & Testing",
-          text:
-            "There are many variations of passages of the have suffered in some form."
-        },
-        {
-          img: require("@/assets/services-5.png"),
-          title: "Cross-Channel Execution",
-          text:
-            "There are many variations of passages of the have suffered in some form."
-        },
-        {
-          img: require("@/assets/services-6.png"),
-          title: "Advanced Monitoring",
-          text:
-            "There are many variations of passages of the have suffered in some form."
-        }
-      ],
+      // services: [
+      //   {
+      //     img: require("@/assets/services-1.png"),
+          
+      //   },
+      //   {
+      //     img: require("@/assets/services-2.png"),
+          
+      //   },
+      //   {
+      //     img: require("@/assets/services-3.png"),
+         
+      //   },
+      //   {
+      //     img: require("@/assets/services-4.png"),
+         
+      //   },
+      //   {
+      //     img: require("@/assets/services-5.png"),
+         
+      //   },
+      //   {
+      //     img: require("@/assets/services-6.png"),
+      //            }
+      // ],
 
       // Our clients
       clients: [

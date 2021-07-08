@@ -3,7 +3,7 @@
     <div class="container px-30">
       <div class="content-box">
         <div class="logo-img">
-          <img src="@/assets/logo-white.png" alt="logo" />
+          <!-- <img src="@/assets/logo-white.png" alt="logo" /> -->
         </div>
         <div class="links">
           <ul class="is-flex is-align-centered">
@@ -17,11 +17,11 @@
       <div class="is-flex is-justified-between is-align-centered">
         <div>
           <p class="has-text-white">
-            Copied with
+           made by -TEAM DEVELOPERS
             <span class="px-1">
               <i class="fas fa-heart has-text-danger"></i>
             </span>
-            by
+            
             <a class="has-text-white" href="#!">M96</a>
           </p>
         </div>

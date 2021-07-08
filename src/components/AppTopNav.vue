@@ -26,7 +26,7 @@
             <div class="navbar-item py-0">
               <a
                 class="button is-green is-radiusless is-borderless is-bold is-fullheight"
-              >Request a Demo</a>
+              >Contribute</a>
             </div>
           </div>
         </div>

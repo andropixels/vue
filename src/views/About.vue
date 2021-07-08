@@ -5,7 +5,7 @@
       <AppHero
         titleStyle="display-2 has-text-weight-bold mb-16"
         title="About Us"
-        text="Printer Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+        text="We are passionated towards making education free for all."
         :img="require('@/assets/page-about-img1.png')"
         responsiveShowcase
       >
@@ -28,8 +28,8 @@
         topTitleStyle="display-5 has-text-weight-medium"
         topTitle="About Us"
         titleStyle="display-3 has-text-weight-bold mb-16"
-        title="We Are An Agency That Focuses On Digital Design Solutions"
-        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        title="TEAM DEVELOPERS"
+        text=""
         :img="require('@/assets/page-about-img2.png')"
         row-reverse
       >
@@ -48,7 +48,7 @@
               :topTitle="tab.toptitle"
               titleStyle="display-3 has-text-weight-bold mb-16"
               :title="tab.title"
-              text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+              text=""
               :img="tab.img"
               :row-reverse="tab.reverseRow"
             >
@@ -69,7 +69,7 @@
               styles="is-shadowless"
               :img="team.img"
               :title="team.title"
-              :subtitle="team.subtitle"
+             
             >
               <template slot="icon-content">
                 <!-- AppIcon -->
@@ -90,7 +90,7 @@
     <!-- Our Clients -->
     <section class="about-clients pt-30">
       <div class="container">
-        <AppHeadingTitle title="They Trust Me" />
+        <AppHeadingTitle title="TEAM DEVELOPERS" />
         <AppSlider :img="clients">
           <template v-slot:item="{ item }">
             <img :src="item.img" :title="item.name" />
@@ -127,55 +127,55 @@ export default {
         {
           name: "Financial",
           reverseRow: false,
-          toptitle: "We’re Creative Agency",
-          title: "That Focuses On Digital Design Solutions",
+          toptitle: "",
+          title: "",
           text:
-            "We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.",
+            "",
           img: require("@/assets/about-us-1.png")
         },
         {
           name: "Commercial",
           reverseRow: true,
-          toptitle: "Finibus Bonorum et Malorum",
-          title: "There are many variations of passages",
+          toptitle: "",
+          title: "",
           text:
-            "Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "",
           img: require("@/assets/about-us-2.png")
         },
         {
           name: "Safety",
           reverseRow: false,
-          toptitle: "The standard Lorem Ipsum passage",
-          title: "We Are An Agency That Focuses On Digital Design Solutions",
+          toptitle: "",
+          title: "",
           text:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "",
           img: require("@/assets/about-us-3.png")
         },
         {
           name: "Transport",
           reverseRow: true,
-          toptitle: "AWS has the broadest and deepest",
-          title: "Simple dummy text of the printing and typesetting",
+          toptitle: "",
+          title: "",
           text:
-            "Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "",
           img: require("@/assets/about-us-4.png")
         },
         {
           name: "Government",
           reverseRow: false,
-          toptitle: "Denouncing pleasure and praising",
-          title: "Agency That Focuses On Digital Design Solutions",
+          toptitle: "",
+          title: "",
           text:
-            "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, and scrambled it to make a type specimen book.",
+            "",
           img: require("@/assets/about-us-5.png")
         },
         {
           name: "Other",
           reverseRow: true,
-          toptitle: "Galley of type and scrambled",
-          title: "On the other hand, we denounce with righteous",
+          toptitle: "",
+          title: "",
           text:
-            "Text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+            "",
           img: require("@/assets/about-us-6.png")
         }
       ],
@@ -184,22 +184,22 @@ export default {
       teamCards: [
         {
           img: require("@/assets/team-1.jpg"),
-          title: "John Doe",
+          title: "Rahul  Navgire",
           subtitle: "Web Developer"
         },
         {
           img: require("@/assets/team-2.jpg"),
-          title: "Jane Doe",
+          title: "pragati ",
           subtitle: "Web Designer"
         },
         {
           img: require("@/assets/team-3.jpg"),
-          title: "Sarah Clear",
+          title: "apeyksha ",
           subtitle: "Market Expert"
         },
         {
           img: require("@/assets/team-4.jpg"),
-          title: "Jason West",
+          title: "Rahul Sagar",
           subtitle: "SEO Expert"
         }
       ],

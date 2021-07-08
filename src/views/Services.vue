@@ -5,7 +5,7 @@
       <AppHero
         titleStyle="display-2 has-text-weight-bold mb-16"
         title="Services"
-        text="Printer Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+       
         :img="require('@/assets/about-us-5.png')"
         responsiveShowcase
       >
@@ -26,8 +26,7 @@
     <section class="services-features">
       <div class="container">
         <AppHeadingTitle
-          title="Service Provide"
-          text="Simply dummy has been the industry's standard dummy text."
+         
         />
         <div class="columns is-multiline">
           <div class="column is-4" v-for="(card, i) in featuresCards" :key="i">
@@ -56,39 +55,27 @@ export default {
       featuresCards: [
         {
           img: require("@/assets/services-1.png"),
-          title: "Targeting Autonomous",
-          text:
-            "There are many variations of passages of the have suffered in some form."
+          
         },
         {
           img: require("@/assets/services-2.png"),
-          title: "Media Buying",
-          text:
-            "There are many variations of passages of the have suffered in some form."
+         
         },
         {
           img: require("@/assets/services-3.png"),
-          title: "Analytics & Insights",
-          text:
-            "There are many variations of passages of the have suffered in some form."
+          
         },
         {
           img: require("@/assets/services-4.png"),
-          title: "Optimization & Testing",
-          text:
-            "There are many variations of passages of the have suffered in some form."
+         
         },
         {
           img: require("@/assets/services-5.png"),
-          title: "Cross-Channel Execution",
-          text:
-            "There are many variations of passages of the have suffered in some form."
+         
         },
         {
           img: require("@/assets/services-6.png"),
-          title: "Advanced Monitoring",
-          text:
-            "There are many variations of passages of the have suffered in some form."
+         
         }
       ]
     };
