@@ -11,8 +11,8 @@
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="#!">
-              <img ref="logoDark" src="@/assets/logo.png" />
-              <img ref="logoLight" src="@/assets/logo-white.png" />
+              <!-- <img ref="logoDark" src="@/assets/logo.png" />
+              <img ref="logoLight" src="@/assets/logo-white.png" /> -->
             </a>
             <!-- Mobile Nav -->
             <a
